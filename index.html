@@ -1,0 +1,96 @@
+<!-- Select Any FOUR Features
+✨HTML
+[ yes ] Include at least three Images UPLOADED to the Replit 
+[  ] Include at least two HTML pages 
+
+✨CSS
+[ yes ] Include at a separately linked CSS file 
+[  ] Upload a Font to Your Replit 
+
+✨JavaScript
+[  yes] Include at a separately linked JS file 
+[  ] Include .on(“click”) feature 
+[ yes ] Include .on(“submit”) feature 
+[  ] Include animation 
+[ ] Include a PDE files with JavaScript
+
+✨Extras
+[  ] Include Flexbox to assist with layout 
+[  ] Upload Website to GitHub
+[  ] Use a Bootstrap CSS Framework
+[  ] Use a w3Schools template 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Things I like to <em>Eat</em></h1>
+
+
+      <form id="food">
+            <select id="food-answer">
+                <option value="food1">Sushi</option>
+                <option value="food2">Meat</option>
+                <option value="food3">Ice-Cream</option>
+                <option value="food4">Egg-Tomato with rice</option>
+            </select>
+        </label> 
+        <button type="submit">Check Book Answer</button>
+      </form>
+      <div id="food-result"></div>
+      <ul> 
+        <li style = "font-family: sans-serif;">
+    </li>
+    <img src="https://hips.hearstapps.com/bestproducts/assets/17/45/1510196260-best-sushi-nyc.jpg" width = "203">
+   <div>
+    <li style = "font-family: sans-serif;"> <strong>Meat</strong></li>
+     <img src="https://www.futurefit.co.uk/wp-content/uploads/2019/09/shutterstock_726842485-scaled.jpg" width="200"
+    </div>
+
+
+
+    <div>
+    <li style = "font-family: sans-serif;">
+      <strong>Ice-Cream</strong>
+    </li>
+    <img src="https://minimalistbaker.com/wp-content/uploads/2015/08/AMAZING-5-Ingredient-Vanilla-Coconut-Ice-Cream-Incredibly-simple-perfectly-sweet-INSANELY-creamy-vegan-glutenfree-icecream-dessert-recipe-vanilla-coconuticecream-coconut.jpg" width="200" height="150"
+      </div>
+
+    <li style = "font-family: sans-serif;"><strong>Egg-Tomato with Rice</strong></li>
+    <img src = "https://pic.ecook.cn/web/257730110.jpg!wh882" width="203">
+
+  </ul>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="script.js"></script> 
+  <!-- <script>
+
+    
+      //listen for submit
+      $("#food").on("submit", function(event) {
+
+            event.preventDefault(); 
+
+            var $answer = $("#food-answer"); 
+            var answer = $answer.val(); 
+
+            if (answer === "food1") { 
+                $("#food-result").text("YESSSS!");
+            }
+            else {  
+                $("#food-result").text("Try Again!");
+            }
+      });
+  </script> -->
+  
+</body>
+
+</html>
